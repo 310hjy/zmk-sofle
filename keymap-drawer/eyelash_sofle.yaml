@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -63,7 +63,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - '2'
-  - $$mdi:apple-keyboard-shift$$
+  - LANG1
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '`', s: '~'}
