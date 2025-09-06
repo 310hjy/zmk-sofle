@@ -86,8 +86,8 @@ layers:
   - Gui+$$mdi:arrow-down-bold$$
   - Gui+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
-  - END
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - HOME
   - {t: '-', s: _}
@@ -95,11 +95,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - Ctl+A
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -107,9 +107,9 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RGB OFF
-  - RGB ON
-  - RGB EFF
-  - RGB EFR
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - B
@@ -151,30 +151,30 @@ layers:
   - Gui+$$mdi:arrow-down-bold$$
   - Gui+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - F12
   - _
   - +
   - $$mdi:backspace-reverse-outline$$
-  - OUT USB
+  - Ctl+A
   - OUT BLE
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - '{'
   - '}'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - B
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - B
