@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: ♥♥♥}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: ♥♥♥}
   - A
   - S
   - D
@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ♥♥♥, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: ' ', h: toggle}
+  - {t: '3', h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -89,7 +89,7 @@ layers:
   - $$mdi:pan-up$$
   - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - HOME
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:backspace-reverse-outline$$
@@ -144,7 +144,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: 'Alt+$$mdi:keyboard-tab$$', type: held}
+  - Alt+$$mdi:keyboard-tab$$
   - $$mdi:bluetooth-off$$
   - Ctl+W
   - Alt+F4
@@ -157,7 +157,7 @@ layers:
   - F12
   - _
   - +
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - Ctl+A
   - OUT BLE
   - Alt+$$mdi:arrow-left-bold$$
@@ -255,8 +255,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&ry_key'
+  - '&ghd_key'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
