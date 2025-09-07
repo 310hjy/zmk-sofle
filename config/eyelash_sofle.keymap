@@ -83,11 +83,11 @@
 
         layer_1 {
             bindings = <
-&kp LS(LG(LEFT))  &kp F1           &kp F2     &kp F3        &kp F4        &kp F5        &mmv MOVE_UP     &kp F6          &kp F7           &kp F8      &kp F9         &kp F10        &kp F11
-&kp LA(TAB)       &kp GRAVE        &kp W      &kp E         &kp LG(DOWN)  &kp LG(UP)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)     &kp UP      &kp BACKSPACE  &kp MINUS      &kp EQUAL
-&kp DEL           &kp LC(A)        &trans     &kp LA(LEFT)  &trans        &mkp MB5      &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT         &kp DOWN    &kp RIGHT      &kp SEMICOLON  &kp RIGHT_BRACKET
-&kp ENTER         &rgb_ug RGB_OFF  &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp B         &mmv MOVE_RIGHT  &kp B           &rgb_ug RGB_BRD  &kp INSERT  &kp F11        &kp F12        &trans
-&kp C_MUTE        &trans           &trans     &trans        &trans        &trans        &mkp LCLK        &trans          &trans           &trans      &trans         &trans
+&kp LS(LG(LEFT))  &kp F1           &kp F2     &kp F3        &kp F4        &kp F5           &mmv MOVE_UP     &kp F6          &kp F7           &kp F8      &kp F9         &kp F10        &kp F11
+&kp LA(TAB)       &kp GRAVE        &kp W      &kp E         &kp LG(DOWN)  &kp LG(UP)       &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)     &kp UP      &kp BACKSPACE  &kp MINUS      &kp EQUAL
+&kp DEL           &kp LC(A)        &trans     &kp LA(LEFT)  &trans        &mkp MB5         &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT         &kp DOWN    &kp RIGHT      &kp SEMICOLON  &kp RIGHT_BRACKET
+&kp ENTER         &rgb_ug RGB_OFF  &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp LG(LS(S))    &mmv MOVE_RIGHT  &kp B           &rgb_ug RGB_BRD  &kp INSERT  &kp F11        &kp F12        &trans
+&kp C_MUTE        &trans           &trans     &trans        &trans        &trans           &mkp LCLK        &trans          &trans           &trans      &trans         &trans
             >;
 
             display-name = "1";
@@ -99,7 +99,7 @@
 &kp LG(LS(LEFT))  &kp F1      &kp F2        &kp F3        &kp F4        &kp F5              &mmv MOVE_UP     &kp F6          &kp F7        &kp F8        &kp F9     &kp F10      &kp F11
 &kp LA(TAB)       &bt BT_CLR  &kp LC(W)     &kp LA(F4)    &kp LG(DOWN)  &kp LG(UP_ARROW)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp F12    &kp UNDER    &kp PLUS
 &kp DELETE        &kp LC(A)   &out OUT_BLE  &kp LA(LEFT)  &trans        &trans              &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT  &kp LBRC     &kp RBRC
-&kp ENTER         &kp LC(Z)   &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp B               &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader  &trans
+&kp ENTER         &kp LC(Z)   &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LG(LS(S))       &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader  &trans
 &kp LC(N0)        &trans      &trans        &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
             >;
 
