@@ -110,7 +110,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - B
+  - Gui+Sft+S
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - B
   - RGB BRD
@@ -175,7 +175,7 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - B
+  - Gui+Sft+S
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - B
   - {t: '$$mdi:transfer$$', type: trans}
