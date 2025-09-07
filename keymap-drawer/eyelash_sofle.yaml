@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ♥♥♥, h: toggle}
   - $$mdi:keyboard-space$$
-  - {t: ' ', h: toggle}
+  - {t: '3', h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -195,7 +195,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '4':
+  '3':
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
