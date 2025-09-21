@@ -168,8 +168,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+Z
   - Ctl+X
