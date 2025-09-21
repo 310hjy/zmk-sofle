@@ -60,7 +60,7 @@
         ghd_key: ghd_key {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp G &kp H &kp D &kp D &kp M &kp S &kp D &kp W &kp N &kp D &kp N1 &kp N2 &kp N3 &kp ENTER>;
+            bindings = <&none &kp G &kp H &kp D &kp D &kp M &kp S &kp W &kp N &kp D &kp N1 &kp N2 &kp N3 &kp ENTER>;
             label = "GHD_KEY";
         };
 
