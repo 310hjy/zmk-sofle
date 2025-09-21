@@ -115,7 +115,7 @@
 &kp LG(LS(LEFT))  &kp F1             &kp F2        &kp F3        &kp F4        &kp F5              &mmv MOVE_UP     &kp F6          &kp F7        &kp F8        &kp F9     &kp F10      &kp F11
 &kp LA(TAB)       &bt BT_CLR         &kp LC(W)     &kp LA(F4)    &kp LG(DOWN)  &kp LG(UP_ARROW)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp F12    &kp UNDER    &kp PLUS
 &kp DELETE        &kp LC(BACKSPACE)  &out OUT_BLE  &kp LA(LEFT)  &trans        &trans              &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT  &kp LBRC     &kp RBRC
-&kp ENTER         &kp LC(Z)          &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LG(LS(S))       &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader  &trans
+&kp ENTER         &kp LC(Z)          &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp LG(LS(S))       &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader  &kp LEFT_SHIFT
 &kp LC(N0)        &trans             &trans        &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
             >;
 
