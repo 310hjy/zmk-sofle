@@ -171,7 +171,7 @@ layers:
   - '{'
   - '}'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Sft+KP ENTER
+  - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
@@ -255,8 +255,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&ry_key'
+  - '&ghd_key'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
