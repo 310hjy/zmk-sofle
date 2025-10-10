@@ -80,7 +80,7 @@ layers:
   - F10
   - F11
   - Alt+$$mdi:keyboard-tab$$
-  - {t: '`', s: '~'}
+  - Ctl+$$mdi:keyboard-tab$$
   - W
   - E
   - Gui+$$mdi:arrow-down-bold$$
@@ -145,7 +145,7 @@ layers:
   - F10
   - F11
   - Alt+$$mdi:keyboard-tab$$
-  - $$mdi:bluetooth-off$$
+  - Ctl+$$mdi:keyboard-tab$$
   - Ctl+W
   - Alt+F4
   - Gui+$$mdi:arrow-down-bold$$
@@ -159,7 +159,7 @@ layers:
   - +
   - {t: '$$mdi:backspace-reverse-outline$$', type: held}
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
-  - OUT BLE
+  - Ctl+S
   - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
