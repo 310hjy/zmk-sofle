@@ -178,8 +178,8 @@ layers:
   - Gui+Sft+S
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - B
-  - RGB BRD
-  - Ins
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
