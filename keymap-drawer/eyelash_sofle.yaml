@@ -93,7 +93,7 @@ layers:
   - _
   - +
   - {t: '$$mdi:backspace-reverse-outline$$', type: held}
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
+  - Ctl+A
   - Ctl+S
   - Alt+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -238,8 +238,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - '&copy_alttab'
-  - '&paste_alttab'
+  - Ctl+C
+  - Ctl+Alt+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
