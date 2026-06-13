@@ -85,11 +85,11 @@
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
-&kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp TILDE   &kp N1     &kp N2        &kp N3  &kp N4     &kp N5    &kp UP_ARROW     &kp N6  &kp N7         &kp N8       &kp N9     &kp N0      &kp BACKSPACE
+&kp TAB     &kp Q      &kp W         &kp E   &kp R      &kp T     &kp DOWN_ARROW   &kp Y   &kp U          &kp I        &kp O      &kp P       &kp BSLH
+&lt 1 CAPS  &kp A      &kp S         &kp D   &kp F      &kp G     &kp LEFT_ARROW   &kp H   &kp J          &kp K        &kp L      &kp ENTER   &kp APOS
+&kp LSHFT   &kp Z      &kp Z         &kp X   &kp C      &kp V     &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA    &kp DOT    &kp FSLH    &kp RIGHT_SHIFT
+&kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &tog 1  &kp SPACE  &tog 3    &kp ENTER        &kp B   &kp BACKSPACE  &lt 2 SPACE  &kp LANG1  &kp DELETE
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -111,11 +111,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp LG(LS(LEFT))  &kp F1             &kp F2     &kp F3        &kp F4        &kp F5              &mmv MOVE_UP     &kp F6          &kp F7        &kp F8        &kp F9     &kp F10           &kp F11
+&kp LA(TAB)       &kp LC(TAB)        &kp LC(W)  &kp LA(F4)    &kp LG(DOWN)  &kp LG(UP_ARROW)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp F12    &kp UNDER         &kp PLUS
+&kp DELETE        &kp LC(BACKSPACE)  &kp LC(S)  &kp LA(LEFT)  &trans        &trans              &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp ENTER         &kp LC(Z)          &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp LG(LS(S))       &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader       &kp LEFT_SHIFT
+&kp LC(N0)        &trans             &trans     &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
             >;
 
             display-name = "LAYER2";
@@ -124,11 +124,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3        &trans         &trans           &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &kp N4  &kp N5  &kp N6        &trans         &trans           &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &kp N7  &kp N8  &kp N9        &kp TAB        &kp LS(ENTER)    &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &kp N0  &copy_alttab  &paste_alttab  &trans           &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans           &trans  &ry_key  &ghd_key  &trans  &trans  &trans
             >;
 
             display-name = "LAYER3";
