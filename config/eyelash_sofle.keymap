@@ -105,7 +105,7 @@
             label = "GHD_KEY";
         };
 
-        password: password {
+        passw: password {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp Y &kp T &kp K &kp W &kp L &kp D &kp U &kp D &kp N8 &kp CARET &kp CARET>;
@@ -157,11 +157,11 @@
 
         layer_3 {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &trans     &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &kp N4  &kp N5  &kp N6  &trans     &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &kp N7  &kp N8  &kp N9  &password  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &kp N0  &trans  &trans     &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans     &trans    &trans  &ry_key  &ghd_key  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &trans  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &kp N4  &kp N5  &kp N6  &trans  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &kp N7  &kp N8  &kp N9  &passw  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &kp N0  &trans  &trans  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &ry_key  &ghd_key  &trans  &trans  &trans
             >;
 
             display-name = "LAYER3";
