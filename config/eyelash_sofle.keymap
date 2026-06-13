@@ -126,7 +126,7 @@
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
-            display-name = "LAYER0";
+            display-name = " ";
         };
 
         layer_1 {
@@ -151,7 +151,7 @@
 &kp LC(N0)         &trans       &trans     &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
             >;
 
-            display-name = "♥♥♥♥";
+            display-name = "ʕ•ﻌ•ʔ";
             sensor-bindings = <&inc_dec_kp LC(EQUAL) LC(MINUS) &rsr_trans>;
         };
 
