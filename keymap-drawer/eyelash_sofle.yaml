@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: LAYER1}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: ' '}
   - A
   - S
   - D
@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - {t: LAYER2, h: toggle}
+  - {t: ♥♥♥♥, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: LAYER3, h: toggle}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - B
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
+  - {t: '$$mdi:keyboard-space$$', h: ♥♥♥♥}
   - LANG1
   - $$mdi:backspace-reverse-outline$$
-  LAYER1:
+  ' ':
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER2:
+  ♥♥♥♥:
   - Gui+Sft+$$mdi:arrow-left-bold$$
   - F1
   - F2
@@ -170,7 +170,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: ;, s: ':'}
   - {t: ']', s: '}'}
-  - {t: 'Ctl+Sft+$$mdi:keyboard-return$$', type: enter}
+  - Ctl+$$mdi:apple-keyboard-shift$$
   - Ctl+Z
   - Ctl+X
   - Ctl+C
