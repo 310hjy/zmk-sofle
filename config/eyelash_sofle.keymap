@@ -139,7 +139,7 @@
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
-            display-name = "LAYER1";
+            display-name = " ";
         };
 
         layer_2 {
@@ -147,12 +147,12 @@
 &kp LG(LS(LEFT))   &kp F1       &kp F2     &kp F3        &kp F4        &kp F5              &mmv MOVE_UP     &kp F6          &kp F7        &kp F8        &kp F9     &kp F10        &kp F11
 &kp LA(TAB)        &kp LC(TAB)  &kp LC(W)  &kp LA(F4)    &kp LG(DOWN)  &kp LG(UP_ARROW)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp F12    &kp UNDER      &kp PLUS
 &kp DELETE         &kp LC(A)    &kp LC(S)  &kp LA(LEFT)  &trans        &kp LG(LS(S))       &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT  &kp SEMICOLON  &kp RIGHT_BRACKET
-&kp LC(LS(ENTER))  &kp LC(Z)    &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp ENTER           &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader    &kp LEFT_SHIFT
+&kp LC(LSHFT)      &kp LC(Z)    &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp ENTER           &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader    &kp LEFT_SHIFT
 &kp LC(N0)         &trans       &trans     &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
             >;
 
-            display-name = "LAYER2";
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            display-name = "♥♥♥♥";
+            sensor-bindings = <&inc_dec_kp LC(EQUAL) LC(MINUS) &rsr_trans>;
         };
 
         layer_3 {
