@@ -4,16 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: cormoran
       url-base: https://github.com/cormoran
-      # Additional modules containing boards/shields/custom code can be listed here as well.
-      # See:
-      # - https://zmk.dev/docs/features/modules
-      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-  #  - name: gpeye
-  #    url-base: https://github.com/GPeye
+    # 👇 [추가됨] 봉고 캣 모듈을 가져오기 위한 저장소 주소
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
   projects:
-    # - name: mario-peripheral-animation
-    #   remote: gpeye
-    #    revision: main
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
       revision: main
@@ -36,5 +30,9 @@ manifest:
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: zmk-v0.3.0.0
+    # 👇 [추가됨] 기존 코어를 건드리지 않고 봉고 캣 기능만 얹어주는 플러그인
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
   self:
     path: config
