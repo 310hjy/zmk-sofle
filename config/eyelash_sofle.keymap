@@ -108,7 +108,7 @@
         passw: password {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp R &kp Y &kp T &kp K &kp W &kp L &kp D &kp U &kp D &kp N8 &kp CARET &kp CARET>;
+            bindings = <&kp R &kp Y &kp T &kp K &kp W &kp L &kp D &kp U &kp D &kp N8 &kp CARET &kp CARET &kp ENTER>;
             label = "PASSWORD";
         };
     };
@@ -144,11 +144,11 @@
 
         layer_2 {
             bindings = <
-&kp LG(LS(LEFT))   &kp F1       &kp F2     &kp F3        &kp F4        &kp F5              &mmv MOVE_UP     &kp F6          &kp F7        &kp F8        &kp F9     &kp F10        &kp F11
-&kp LA(TAB)        &kp LC(TAB)  &kp LC(W)  &kp LA(F4)    &kp LG(DOWN)  &kp LG(UP_ARROW)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp F12    &kp UNDER      &kp PLUS
-&kp DELETE         &kp LC(A)    &kp LC(S)  &kp LA(LEFT)  &trans        &kp LG(LS(S))       &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT  &kp SEMICOLON  &kp RIGHT_BRACKET
-&kp LC(LSHFT)      &kp LC(Z)    &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp ENTER           &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader    &kp LEFT_SHIFT
-&kp LC(N0)         &trans       &trans     &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
+&kp LG(LS(LEFT))  &kp F1       &kp F2     &kp F3        &kp F4        &kp F5              &mmv MOVE_UP     &kp F6          &kp F7        &kp F8        &kp F9     &kp F10        &kp F11
+&kp LA(TAB)       &kp LC(TAB)  &kp LC(W)  &kp LA(F4)    &kp LG(DOWN)  &kp LG(UP_ARROW)    &mmv MOVE_DOWN   &msc SCRL_UP    &kp LA(LEFT)  &kp UP_ARROW  &kp F12    &kp UNDER      &kp PLUS
+&kp DELETE        &kp LC(A)    &kp LC(S)  &kp LA(LEFT)  &trans        &kp LG(LS(S))       &mmv MOVE_LEFT   &msc SCRL_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT  &kp SEMICOLON  &kp RIGHT_BRACKET
+&kp LC(LSHFT)     &kp LC(Z)    &kp LC(X)  &kp LC(C)     &kp LC(V)     &kp ENTER           &mmv MOVE_RIGHT  &kp B           &trans        &sys_reset    &soft_off  &bootloader    &kp LEFT_SHIFT
+&kp LC(N0)        &trans       &trans     &trans        &trans        &trans              &mkp LCLK        &trans          &trans        &trans        &trans     &trans
             >;
 
             display-name = "ʕ•ﻌ•ʔ";
@@ -157,11 +157,11 @@
 
         layer_3 {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &trans  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &kp N4  &kp N5  &kp N6  &trans  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &kp N7  &kp N8  &kp N9  &passw  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &kp N0  &trans  &trans  &trans    &trans  &trans   &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &ry_key  &ghd_key  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &trans  &trans       &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &kp N4  &kp N5  &kp N6  &trans  &trans       &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &kp N7  &kp N8  &kp N9  &passw  &trans       &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &kp N0  &trans  &trans  &kp ENTER    &trans  &trans   &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &tog 4  &trans  &trans       &trans  &ry_key  &ghd_key  &trans  &trans  &trans
             >;
 
             display-name = "LAYER3";
@@ -170,11 +170,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &kp UP_ARROW  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &tog 4        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "LAYER4";
